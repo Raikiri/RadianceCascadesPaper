@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="penumbra.svg"
+   inkscape:export-filename="penumbra.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="1.5844197"
+     inkscape:cx="286.85581"
+     inkscape:cy="192.81507"
+     inkscape:window-width="1788"
+     inkscape:window-height="1057"
+     inkscape:window-x="124"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer9">
+    <sodipodi:guide
+       position="256,255.44095"
+       orientation="-1,0"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="314.5,474"
+       orientation="0,1"
+       id="guide3"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="256,382"
+       orientation="0,1"
+       id="guide158"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="314.5,340.5"
+       orientation="1,0"
+       id="guide173814"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="460,474"
+       orientation="1,0"
+       id="guide173815"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="242.7724,474"
+       orientation="1,0"
+       id="guide173817"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="269.2276,474"
+       orientation="1,0"
+       id="guide173818"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="230.6052,491.40551"
+       orientation="0,-1"
+       id="guide173819"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="230.95875,499.0953"
+       orientation="0,-1"
+       id="guide173820"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="304.9398,511.11612"
+       orientation="1,0"
+       id="guide173827"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker173827"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path173827" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker173817"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path173817" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <linearGradient
+       id="swatch12"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#0025c0;stop-opacity:1;"
+         offset="0"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="swatch8">
+      <stop
+         style="stop-color:#760000;stop-opacity:1;"
+         offset="0"
+         id="stop8" />
+    </linearGradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient105668"
+       gradientUnits="userSpaceOnUse"
+       x="768"
+       y="130">
+      <meshrow
+         id="meshrow105668">
+        <meshpatch
+           id="meshpatch105668">
+          <stop
+             path="c 0,48.8253  -6.98393,97.3996  -20.7396,144.247"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105668" />
+          <stop
+             path="l -122.815,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105669" />
+          <stop
+             path="c 10.3168,-35.1356  15.5547,-71.5663  15.5547,-108.185"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105670" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105671" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105671">
+          <stop
+             path="c -13.7557,46.8475  -34.1417,91.4866  -60.5386,132.561"
+             id="stop105672" />
+          <stop
+             path="l -107.68,-69.202"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105673" />
+          <stop
+             path="c 19.7977,-30.8058  35.0872,-64.2851  45.4039,-99.4208"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105674" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105674">
+          <stop
+             path="c -26.3969,41.0744  -58.5334,78.1619  -95.4331,110.136"
+             id="stop105675" />
+          <stop
+             path="l -83.8222,-96.7359"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105676" />
+          <stop
+             path="c 27.6748,-23.9803  51.7771,-51.7959  71.5748,-82.6018"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105677" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105677">
+          <stop
+             path="c -36.8997,31.9738  -78.1832,58.505  -122.596,78.7878"
+             id="stop105678" />
+          <stop
+             path="l -53.1731,-116.433"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105679" />
+          <stop
+             path="c 33.3098,-15.2121  64.2724,-35.1105  91.9472,-59.0908"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105680" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105680">
+          <stop
+             path="c -44.413,20.2828  -91.499,34.1084  -139.827,41.057"
+             id="stop105681" />
+          <stop
+             path="l -18.2163,-126.697"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105682" />
+          <stop
+             path="c 36.2462,-5.21142  71.5607,-15.5807  104.87,-30.7927"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105683" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105683">
+          <stop
+             path="c -48.3283,6.94856  -97.4021,6.94856  -145.73,-3.38169e-06"
+             id="stop105684" />
+          <stop
+             path="l 18.2163,-126.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105685" />
+          <stop
+             path="c 36.2462,5.21142  73.0516,5.21142  109.298,2.53627e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105686" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105686">
+          <stop
+             path="c -48.3283,-6.94856  -95.4143,-20.7742  -139.827,-41.057"
+             id="stop105687" />
+          <stop
+             path="l 53.1731,-116.433"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105688" />
+          <stop
+             path="c 33.3098,15.2121  68.6242,25.5813  104.87,30.7928"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105689" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105689">
+          <stop
+             path="c -44.413,-20.2828  -85.6965,-46.814  -122.596,-78.7878"
+             id="stop105690" />
+          <stop
+             path="l 83.8222,-96.7359"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105691" />
+          <stop
+             path="c 27.6748,23.9803  58.6374,43.8788  91.9472,59.0909"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105692" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105692">
+          <stop
+             path="c -36.8997,-31.9738  -69.0362,-69.0612  -95.4331,-110.136"
+             id="stop105693" />
+          <stop
+             path="l 107.68,-69.202"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105694" />
+          <stop
+             path="c 19.7977,30.8058  43.9001,58.6214  71.5748,82.6018"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105695" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105695">
+          <stop
+             path="c -26.3969,-41.0744  -46.7829,-85.7135  -60.5386,-132.561"
+             id="stop105696" />
+          <stop
+             path="l 122.815,-36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105697" />
+          <stop
+             path="c 10.3168,35.1356  25.6062,68.6149  45.4039,99.4208"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105698" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105698">
+          <stop
+             path="c -13.7557,-46.8475  -20.7396,-95.4218  -20.7396,-144.247"
+             id="stop105699" />
+          <stop
+             path="l 128,5.94051e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105700" />
+          <stop
+             path="c -1.69949e-06,36.619  5.23794,73.0497  15.5547,108.185"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105701" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow105701">
+        <meshpatch
+           id="meshpatch105701">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop105702" />
+          <stop
+             path="c 6.87784,-23.4238  10.3698,-47.7109  10.3698,-72.1235"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105703" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105704" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105704">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop105705" />
+          <stop
+             path="c 13.1985,-20.5372  23.3915,-42.8568  30.2693,-66.2805"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105706" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105706">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop105707" />
+          <stop
+             path="c 18.4498,-15.9869  34.5181,-34.5306  47.7166,-55.0678"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105708" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105708">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop105709" />
+          <stop
+             path="c 22.2065,-10.1414  42.8483,-23.407  61.2981,-39.3939"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105710" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105710">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop105711" />
+          <stop
+             path="c 24.1642,-3.47428  47.7071,-10.3871  69.9136,-20.5285"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105712" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105712">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop105713" />
+          <stop
+             path="c 24.1642,3.47428  48.701,3.47428  72.8652,1.69084e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105714" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105714">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop105715" />
+          <stop
+             path="c 22.2065,10.1414  45.7495,17.0542  69.9136,20.5285"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105716" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105716">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop105717" />
+          <stop
+             path="c 18.4498,15.9869  39.0916,29.2525  61.2981,39.3939"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105718" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105718">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop105719" />
+          <stop
+             path="c 13.1985,20.5372  29.2667,39.081  47.7166,55.0678"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105720" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105720">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop105721" />
+          <stop
+             path="c 6.87784,23.4238  17.0708,45.7433  30.2693,66.2805"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105722" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105722">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop105723" />
+          <stop
+             path="c -1.133e-06,24.4126  3.49196,48.6998  10.3698,72.1235"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105724" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow105724">
+        <meshpatch
+           id="meshpatch105724">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop105725" />
+          <stop
+             path="c 3.43892,-11.7119  5.1849,-23.8554  5.1849,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105726" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105727" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105727">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop105728" />
+          <stop
+             path="c 6.59924,-10.2686  11.6957,-21.4284  15.1346,-33.1403"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105729" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105729">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop105730" />
+          <stop
+             path="c 9.22492,-7.99344  17.259,-17.2653  23.8583,-27.5339"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105731" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105731">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop105732" />
+          <stop
+             path="c 11.1033,-5.07069  21.4241,-11.7035  30.6491,-19.6969"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105733" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105733">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop105734" />
+          <stop
+             path="c 12.0821,-1.73714  23.8536,-5.19356  34.9568,-10.2642"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop105735" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105735">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop105736" />
+          <stop
+             path="c 12.0821,1.73714  24.3505,1.73714  36.4326,8.45422e-07"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105737" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105737">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop105738" />
+          <stop
+             path="c 11.1033,5.07069  22.8747,8.52711  34.9568,10.2643"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105739" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105739">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop105740" />
+          <stop
+             path="c 9.22492,7.99344  19.5458,14.6263  30.6491,19.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105741" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105741">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop105742" />
+          <stop
+             path="c 6.59924,10.2686  14.6334,19.5405  23.8583,27.5339"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105743" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105743">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop105744" />
+          <stop
+             path="c 3.43892,11.7119  8.53541,22.8716  15.1346,33.1403"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105745" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105745">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop105746" />
+          <stop
+             path="c -5.66498e-07,12.2063  1.74598,24.3499  5.1849,36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop105747" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow105747">
+        <meshpatch
+           id="meshpatch105747">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop105748" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop105749" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop105750" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105750">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop105751" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop105752" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105752">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop105753" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop105754" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105754">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop105755" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop105756" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105756">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop105757" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop105758" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105758">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop105759" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop105760" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105760">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop105761" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop105762" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105762">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop105763" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop105764" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105764">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop105765" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop105766" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105766">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop105767" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop105768" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch105768">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop105769" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop105770" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient173499"
+       gradientUnits="userSpaceOnUse"
+       x="768"
+       y="130"
+       gradientTransform="matrix(0.26865785,0,0,0.26865785,187.22358,95.074476)">
+      <meshrow
+         id="meshrow173532">
+        <meshpatch
+           id="meshpatch173502">
+          <stop
+             path="c 0,48.8253  -6.98393,97.3996  -20.7396,144.247"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173499" />
+          <stop
+             path="l -122.815,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173500" />
+          <stop
+             path="c 10.3168,-35.1356  15.5547,-71.5663  15.5547,-108.185"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173501" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173502" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173505">
+          <stop
+             path="c -13.7557,46.8475  -34.1417,91.4866  -60.5386,132.561"
+             id="stop173503" />
+          <stop
+             path="l -107.68,-69.202"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173504" />
+          <stop
+             path="c 19.7977,-30.8058  35.0872,-64.2851  45.4039,-99.4208"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173505" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173508">
+          <stop
+             path="c -26.3969,41.0744  -58.5334,78.1619  -95.4331,110.136"
+             id="stop173506" />
+          <stop
+             path="l -83.8222,-96.7359"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173507" />
+          <stop
+             path="c 27.6748,-23.9803  51.7771,-51.7959  71.5748,-82.6018"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173508" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173511">
+          <stop
+             path="c -36.8997,31.9738  -78.1832,58.505  -122.596,78.7878"
+             id="stop173509" />
+          <stop
+             path="l -53.1731,-116.433"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173510" />
+          <stop
+             path="c 33.3098,-15.2121  64.2724,-35.1105  91.9472,-59.0908"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173511" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173514">
+          <stop
+             path="c -44.413,20.2828  -91.499,34.1084  -139.827,41.057"
+             id="stop173512" />
+          <stop
+             path="l -18.2163,-126.697"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173513" />
+          <stop
+             path="c 36.2462,-5.21142  71.5607,-15.5807  104.87,-30.7927"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173514" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173517">
+          <stop
+             path="c -48.3283,6.94856  -97.4021,6.94856  -145.73,-3.38169e-06"
+             id="stop173515" />
+          <stop
+             path="l 18.2163,-126.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173516" />
+          <stop
+             path="c 36.2462,5.21142  73.0516,5.21142  109.298,2.53627e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173517" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173520">
+          <stop
+             path="c -48.3283,-6.94856  -95.4143,-20.7742  -139.827,-41.057"
+             id="stop173518" />
+          <stop
+             path="l 53.1731,-116.433"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173519" />
+          <stop
+             path="c 33.3098,15.2121  68.6242,25.5813  104.87,30.7928"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173520" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173523">
+          <stop
+             path="c -44.413,-20.2828  -85.6965,-46.814  -122.596,-78.7878"
+             id="stop173521" />
+          <stop
+             path="l 83.8222,-96.7359"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173522" />
+          <stop
+             path="c 27.6748,23.9803  58.6374,43.8788  91.9472,59.0909"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173523" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173526">
+          <stop
+             path="c -36.8997,-31.9738  -69.0362,-69.0612  -95.4331,-110.136"
+             id="stop173524" />
+          <stop
+             path="l 107.68,-69.202"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173525" />
+          <stop
+             path="c 19.7977,30.8058  43.9001,58.6214  71.5748,82.6018"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173526" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173529">
+          <stop
+             path="c -26.3969,-41.0744  -46.7829,-85.7135  -60.5386,-132.561"
+             id="stop173527" />
+          <stop
+             path="l 122.815,-36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173528" />
+          <stop
+             path="c 10.3168,35.1356  25.6062,68.6149  45.4039,99.4208"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173529" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173532">
+          <stop
+             path="c -13.7557,-46.8475  -20.7396,-95.4218  -20.7396,-144.247"
+             id="stop173530" />
+          <stop
+             path="l 128,5.94051e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173531" />
+          <stop
+             path="c -1.69949e-06,36.619  5.23794,73.0497  15.5547,108.185"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173532" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173555">
+        <meshpatch
+           id="meshpatch173535">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173533" />
+          <stop
+             path="c 6.87784,-23.4238  10.3698,-47.7109  10.3698,-72.1235"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173534" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173535" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173537">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173536" />
+          <stop
+             path="c 13.1985,-20.5372  23.3915,-42.8568  30.2693,-66.2805"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173537" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173539">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173538" />
+          <stop
+             path="c 18.4498,-15.9869  34.5181,-34.5306  47.7166,-55.0678"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173539" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173541">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173540" />
+          <stop
+             path="c 22.2065,-10.1414  42.8483,-23.407  61.2981,-39.3939"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173541" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173543">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173542" />
+          <stop
+             path="c 24.1642,-3.47428  47.7071,-10.3871  69.9136,-20.5285"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173543" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173545">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173544" />
+          <stop
+             path="c 24.1642,3.47428  48.701,3.47428  72.8652,1.69084e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173545" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173547">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173546" />
+          <stop
+             path="c 22.2065,10.1414  45.7495,17.0542  69.9136,20.5285"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173547" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173549">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173548" />
+          <stop
+             path="c 18.4498,15.9869  39.0916,29.2525  61.2981,39.3939"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173549" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173551">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173550" />
+          <stop
+             path="c 13.1985,20.5372  29.2667,39.081  47.7166,55.0678"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173551" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173553">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173552" />
+          <stop
+             path="c 6.87784,23.4238  17.0708,45.7433  30.2693,66.2805"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173553" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173555">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173554" />
+          <stop
+             path="c -1.133e-06,24.4126  3.49196,48.6998  10.3698,72.1235"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173555" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173578">
+        <meshpatch
+           id="meshpatch173558">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173556" />
+          <stop
+             path="c 3.43892,-11.7119  5.1849,-23.8554  5.1849,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173557" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173558" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173560">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173559" />
+          <stop
+             path="c 6.59924,-10.2686  11.6957,-21.4284  15.1346,-33.1403"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173560" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173562">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173561" />
+          <stop
+             path="c 9.22492,-7.99344  17.259,-17.2653  23.8583,-27.5339"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173562" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173564">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173563" />
+          <stop
+             path="c 11.1033,-5.07069  21.4241,-11.7035  30.6491,-19.6969"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173564" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173566">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173565" />
+          <stop
+             path="c 12.0821,-1.73714  23.8536,-5.19356  34.9568,-10.2642"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173566" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173568">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173567" />
+          <stop
+             path="c 12.0821,1.73714  24.3505,1.73714  36.4326,8.45422e-07"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173568" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173570">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173569" />
+          <stop
+             path="c 11.1033,5.07069  22.8747,8.52711  34.9568,10.2643"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173570" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173572">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173571" />
+          <stop
+             path="c 9.22492,7.99344  19.5458,14.6263  30.6491,19.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173572" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173574">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173573" />
+          <stop
+             path="c 6.59924,10.2686  14.6334,19.5405  23.8583,27.5339"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173574" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173576">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173575" />
+          <stop
+             path="c 3.43892,11.7119  8.53541,22.8716  15.1346,33.1403"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173576" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173578">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173577" />
+          <stop
+             path="c -5.66498e-07,12.2063  1.74598,24.3499  5.1849,36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173578" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173601">
+        <meshpatch
+           id="meshpatch173581">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173579" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173580" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173581" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173583">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173582" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173583" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173585">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173584" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173585" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173587">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173586" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173587" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173589">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173588" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173589" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173591">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173590" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173591" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173593">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173592" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173593" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173595">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173594" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173595" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173597">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173596" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173597" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173599">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173598" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173599" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173601">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173600" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173601" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient173601"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.06778256,0,0,0.06778256,238.64766,121.18826)"
+       x="768"
+       y="130">
+      <meshrow
+         id="meshrow173635">
+        <meshpatch
+           id="meshpatch173605">
+          <stop
+             path="c 0,48.8253  -6.98393,97.3996  -20.7396,144.247"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173602" />
+          <stop
+             path="l -122.815,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173603" />
+          <stop
+             path="c 10.3168,-35.1356  15.5547,-71.5663  15.5547,-108.185"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173604" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173605" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173608">
+          <stop
+             path="c -13.7557,46.8475  -34.1417,91.4866  -60.5386,132.561"
+             id="stop173606" />
+          <stop
+             path="l -107.68,-69.202"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173607" />
+          <stop
+             path="c 19.7977,-30.8058  35.0872,-64.2851  45.4039,-99.4208"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173608" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173611">
+          <stop
+             path="c -26.3969,41.0744  -58.5334,78.1619  -95.4331,110.136"
+             id="stop173609" />
+          <stop
+             path="l -83.8222,-96.7359"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173610" />
+          <stop
+             path="c 27.6748,-23.9803  51.7771,-51.7959  71.5748,-82.6018"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173611" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173614">
+          <stop
+             path="c -36.8997,31.9738  -78.1832,58.505  -122.596,78.7878"
+             id="stop173612" />
+          <stop
+             path="l -53.1731,-116.433"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173613" />
+          <stop
+             path="c 33.3098,-15.2121  64.2724,-35.1105  91.9472,-59.0908"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173614" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173617">
+          <stop
+             path="c -44.413,20.2828  -91.499,34.1084  -139.827,41.057"
+             id="stop173615" />
+          <stop
+             path="l -18.2163,-126.697"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173616" />
+          <stop
+             path="c 36.2462,-5.21142  71.5607,-15.5807  104.87,-30.7927"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173617" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173620">
+          <stop
+             path="c -48.3283,6.94856  -97.4021,6.94856  -145.73,-3.38169e-06"
+             id="stop173618" />
+          <stop
+             path="l 18.2163,-126.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173619" />
+          <stop
+             path="c 36.2462,5.21142  73.0516,5.21142  109.298,2.53627e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173620" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173623">
+          <stop
+             path="c -48.3283,-6.94856  -95.4143,-20.7742  -139.827,-41.057"
+             id="stop173621" />
+          <stop
+             path="l 53.1731,-116.433"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173622" />
+          <stop
+             path="c 33.3098,15.2121  68.6242,25.5813  104.87,30.7928"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173623" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173626">
+          <stop
+             path="c -44.413,-20.2828  -85.6965,-46.814  -122.596,-78.7878"
+             id="stop173624" />
+          <stop
+             path="l 83.8222,-96.7359"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173625" />
+          <stop
+             path="c 27.6748,23.9803  58.6374,43.8788  91.9472,59.0909"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173626" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173629">
+          <stop
+             path="c -36.8997,-31.9738  -69.0362,-69.0612  -95.4331,-110.136"
+             id="stop173627" />
+          <stop
+             path="l 107.68,-69.202"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173628" />
+          <stop
+             path="c 19.7977,30.8058  43.9001,58.6214  71.5748,82.6018"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173629" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173632">
+          <stop
+             path="c -26.3969,-41.0744  -46.7829,-85.7135  -60.5386,-132.561"
+             id="stop173630" />
+          <stop
+             path="l 122.815,-36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173631" />
+          <stop
+             path="c 10.3168,35.1356  25.6062,68.6149  45.4039,99.4208"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173632" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173635">
+          <stop
+             path="c -13.7557,-46.8475  -20.7396,-95.4218  -20.7396,-144.247"
+             id="stop173633" />
+          <stop
+             path="l 128,5.94051e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173634" />
+          <stop
+             path="c -1.69949e-06,36.619  5.23794,73.0497  15.5547,108.185"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173635" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173658">
+        <meshpatch
+           id="meshpatch173638">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173636" />
+          <stop
+             path="c 6.87784,-23.4238  10.3698,-47.7109  10.3698,-72.1235"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173637" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173638" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173640">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173639" />
+          <stop
+             path="c 13.1985,-20.5372  23.3915,-42.8568  30.2693,-66.2805"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173640" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173642">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173641" />
+          <stop
+             path="c 18.4498,-15.9869  34.5181,-34.5306  47.7166,-55.0678"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173642" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173644">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173643" />
+          <stop
+             path="c 22.2065,-10.1414  42.8483,-23.407  61.2981,-39.3939"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173644" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173646">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173645" />
+          <stop
+             path="c 24.1642,-3.47428  47.7071,-10.3871  69.9136,-20.5285"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173646" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173648">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173647" />
+          <stop
+             path="c 24.1642,3.47428  48.701,3.47428  72.8652,1.69084e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173648" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173650">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173649" />
+          <stop
+             path="c 22.2065,10.1414  45.7495,17.0542  69.9136,20.5285"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173650" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173652">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173651" />
+          <stop
+             path="c 18.4498,15.9869  39.0916,29.2525  61.2981,39.3939"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173652" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173654">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173653" />
+          <stop
+             path="c 13.1985,20.5372  29.2667,39.081  47.7166,55.0678"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173654" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173656">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173655" />
+          <stop
+             path="c 6.87784,23.4238  17.0708,45.7433  30.2693,66.2805"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173656" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173658">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173657" />
+          <stop
+             path="c -1.133e-06,24.4126  3.49196,48.6998  10.3698,72.1235"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173658" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173681">
+        <meshpatch
+           id="meshpatch173661">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173659" />
+          <stop
+             path="c 3.43892,-11.7119  5.1849,-23.8554  5.1849,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173660" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173661" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173663">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173662" />
+          <stop
+             path="c 6.59924,-10.2686  11.6957,-21.4284  15.1346,-33.1403"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173663" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173665">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173664" />
+          <stop
+             path="c 9.22492,-7.99344  17.259,-17.2653  23.8583,-27.5339"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173665" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173667">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173666" />
+          <stop
+             path="c 11.1033,-5.07069  21.4241,-11.7035  30.6491,-19.6969"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173667" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173669">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173668" />
+          <stop
+             path="c 12.0821,-1.73714  23.8536,-5.19356  34.9568,-10.2642"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173669" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173671">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173670" />
+          <stop
+             path="c 12.0821,1.73714  24.3505,1.73714  36.4326,8.45422e-07"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173671" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173673">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173672" />
+          <stop
+             path="c 11.1033,5.07069  22.8747,8.52711  34.9568,10.2643"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173673" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173675">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173674" />
+          <stop
+             path="c 9.22492,7.99344  19.5458,14.6263  30.6491,19.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173675" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173677">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173676" />
+          <stop
+             path="c 6.59924,10.2686  14.6334,19.5405  23.8583,27.5339"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173677" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173679">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173678" />
+          <stop
+             path="c 3.43892,11.7119  8.53541,22.8716  15.1346,33.1403"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173679" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173681">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173680" />
+          <stop
+             path="c -5.66498e-07,12.2063  1.74598,24.3499  5.1849,36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173681" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173704">
+        <meshpatch
+           id="meshpatch173684">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173682" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173683" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173684" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173686">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173685" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173686" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173688">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173687" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173688" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173690">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173689" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173690" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173692">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173691" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173692" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173694">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173693" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173694" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173696">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173695" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173696" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173698">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173697" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173698" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173700">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173699" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173700" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173702">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173701" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173702" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173704">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173703" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173704" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient173704"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01951644,0,0,0.01951644,251.00379,127.46286)"
+       x="768"
+       y="130">
+      <meshrow
+         id="meshrow173738">
+        <meshpatch
+           id="meshpatch173708">
+          <stop
+             path="c 0,48.8253  -6.98393,97.3996  -20.7396,144.247"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173705" />
+          <stop
+             path="l -122.815,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173706" />
+          <stop
+             path="c 10.3168,-35.1356  15.5547,-71.5663  15.5547,-108.185"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173707" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173708" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173711">
+          <stop
+             path="c -13.7557,46.8475  -34.1417,91.4866  -60.5386,132.561"
+             id="stop173709" />
+          <stop
+             path="l -107.68,-69.202"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173710" />
+          <stop
+             path="c 19.7977,-30.8058  35.0872,-64.2851  45.4039,-99.4208"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173711" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173714">
+          <stop
+             path="c -26.3969,41.0744  -58.5334,78.1619  -95.4331,110.136"
+             id="stop173712" />
+          <stop
+             path="l -83.8222,-96.7359"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173713" />
+          <stop
+             path="c 27.6748,-23.9803  51.7771,-51.7959  71.5748,-82.6018"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173714" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173717">
+          <stop
+             path="c -36.8997,31.9738  -78.1832,58.505  -122.596,78.7878"
+             id="stop173715" />
+          <stop
+             path="l -53.1731,-116.433"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173716" />
+          <stop
+             path="c 33.3098,-15.2121  64.2724,-35.1105  91.9472,-59.0908"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173717" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173720">
+          <stop
+             path="c -44.413,20.2828  -91.499,34.1084  -139.827,41.057"
+             id="stop173718" />
+          <stop
+             path="l -18.2163,-126.697"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173719" />
+          <stop
+             path="c 36.2462,-5.21142  71.5607,-15.5807  104.87,-30.7927"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173720" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173723">
+          <stop
+             path="c -48.3283,6.94856  -97.4021,6.94856  -145.73,-3.38169e-06"
+             id="stop173721" />
+          <stop
+             path="l 18.2163,-126.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173722" />
+          <stop
+             path="c 36.2462,5.21142  73.0516,5.21142  109.298,2.53627e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173723" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173726">
+          <stop
+             path="c -48.3283,-6.94856  -95.4143,-20.7742  -139.827,-41.057"
+             id="stop173724" />
+          <stop
+             path="l 53.1731,-116.433"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173725" />
+          <stop
+             path="c 33.3098,15.2121  68.6242,25.5813  104.87,30.7928"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173726" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173729">
+          <stop
+             path="c -44.413,-20.2828  -85.6965,-46.814  -122.596,-78.7878"
+             id="stop173727" />
+          <stop
+             path="l 83.8222,-96.7359"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173728" />
+          <stop
+             path="c 27.6748,23.9803  58.6374,43.8788  91.9472,59.0909"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173729" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173732">
+          <stop
+             path="c -36.8997,-31.9738  -69.0362,-69.0612  -95.4331,-110.136"
+             id="stop173730" />
+          <stop
+             path="l 107.68,-69.202"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173731" />
+          <stop
+             path="c 19.7977,30.8058  43.9001,58.6214  71.5748,82.6018"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173732" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173735">
+          <stop
+             path="c -26.3969,-41.0744  -46.7829,-85.7135  -60.5386,-132.561"
+             id="stop173733" />
+          <stop
+             path="l 122.815,-36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173734" />
+          <stop
+             path="c 10.3168,35.1356  25.6062,68.6149  45.4039,99.4208"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173735" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173738">
+          <stop
+             path="c -13.7557,-46.8475  -20.7396,-95.4218  -20.7396,-144.247"
+             id="stop173736" />
+          <stop
+             path="l 128,5.94051e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173737" />
+          <stop
+             path="c -1.69949e-06,36.619  5.23794,73.0497  15.5547,108.185"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173738" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173761">
+        <meshpatch
+           id="meshpatch173741">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173739" />
+          <stop
+             path="c 6.87784,-23.4238  10.3698,-47.7109  10.3698,-72.1235"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173740" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173741" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173743">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173742" />
+          <stop
+             path="c 13.1985,-20.5372  23.3915,-42.8568  30.2693,-66.2805"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173743" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173745">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173744" />
+          <stop
+             path="c 18.4498,-15.9869  34.5181,-34.5306  47.7166,-55.0678"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173745" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173747">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173746" />
+          <stop
+             path="c 22.2065,-10.1414  42.8483,-23.407  61.2981,-39.3939"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173747" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173749">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173748" />
+          <stop
+             path="c 24.1642,-3.47428  47.7071,-10.3871  69.9136,-20.5285"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173749" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173751">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173750" />
+          <stop
+             path="c 24.1642,3.47428  48.701,3.47428  72.8652,1.69084e-06"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173751" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173753">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173752" />
+          <stop
+             path="c 22.2065,10.1414  45.7495,17.0542  69.9136,20.5285"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173753" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173755">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173754" />
+          <stop
+             path="c 18.4498,15.9869  39.0916,29.2525  61.2981,39.3939"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173755" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173757">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173756" />
+          <stop
+             path="c 13.1985,20.5372  29.2667,39.081  47.7166,55.0678"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173757" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173759">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173758" />
+          <stop
+             path="c 6.87784,23.4238  17.0708,45.7433  30.2693,66.2805"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173759" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173761">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173760" />
+          <stop
+             path="c -1.133e-06,24.4126  3.49196,48.6998  10.3698,72.1235"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173761" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173784">
+        <meshpatch
+           id="meshpatch173764">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173762" />
+          <stop
+             path="c 3.43892,-11.7119  5.1849,-23.8554  5.1849,-36.0618"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173763" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173764" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173766">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173765" />
+          <stop
+             path="c 6.59924,-10.2686  11.6957,-21.4284  15.1346,-33.1403"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173766" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173768">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173767" />
+          <stop
+             path="c 9.22492,-7.99344  17.259,-17.2653  23.8583,-27.5339"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173768" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173770">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173769" />
+          <stop
+             path="c 11.1033,-5.07069  21.4241,-11.7035  30.6491,-19.6969"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173770" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173772">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173771" />
+          <stop
+             path="c 12.0821,-1.73714  23.8536,-5.19356  34.9568,-10.2642"
+             style="stop-color:#fffac7;stop-opacity:1"
+             id="stop173772" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173774">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173773" />
+          <stop
+             path="c 12.0821,1.73714  24.3505,1.73714  36.4326,8.45422e-07"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173774" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173776">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173775" />
+          <stop
+             path="c 11.1033,5.07069  22.8747,8.52711  34.9568,10.2643"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173776" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173778">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173777" />
+          <stop
+             path="c 9.22492,7.99344  19.5458,14.6263  30.6491,19.697"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173778" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173780">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173779" />
+          <stop
+             path="c 6.59924,10.2686  14.6334,19.5405  23.8583,27.5339"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173780" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173782">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173781" />
+          <stop
+             path="c 3.43892,11.7119  8.53541,22.8716  15.1346,33.1403"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173782" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173784">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173783" />
+          <stop
+             path="c -5.66498e-07,12.2063  1.74598,24.3499  5.1849,36.0618"
+             style="stop-color:#636363;stop-opacity:1"
+             id="stop173784" />
+        </meshpatch>
+      </meshrow>
+      <meshrow
+         id="meshrow173807">
+        <meshpatch
+           id="meshpatch173787">
+          <stop
+             path="l -122.815,-36.0618"
+             id="stop173785" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173786" />
+          <stop
+             path="l 128,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173787" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173789">
+          <stop
+             path="l -107.68,-69.202"
+             id="stop173788" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173789" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173791">
+          <stop
+             path="l -83.8222,-96.7359"
+             id="stop173790" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173791" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173793">
+          <stop
+             path="l -53.1731,-116.433"
+             id="stop173792" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173793" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173795">
+          <stop
+             path="l -18.2163,-126.697"
+             id="stop173794" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173795" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173797">
+          <stop
+             path="l 18.2163,-126.697"
+             id="stop173796" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173797" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173799">
+          <stop
+             path="l 53.1731,-116.433"
+             id="stop173798" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173799" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173801">
+          <stop
+             path="l 83.8222,-96.7359"
+             id="stop173800" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173801" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173803">
+          <stop
+             path="l 107.68,-69.202"
+             id="stop173802" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173803" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173805">
+          <stop
+             path="l 122.815,-36.0618"
+             id="stop173804" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#800080;stop-opacity:1"
+             id="stop173805" />
+        </meshpatch>
+        <meshpatch
+           id="meshpatch173807">
+          <stop
+             path="l 128,5.94051e-06"
+             id="stop173806" />
+          <stop
+             path="l 0,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop173807" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Penumbra"
+     style="display:inline">
+    <g
+       id="g173808">
+      <g
+         id="g173807"
+         style="display:inline">
+        <path
+           style="display:inline;fill:url(#meshgradient105668);fill-opacity:1;stroke:none;stroke-width:1.51181;stroke-linecap:square;stroke-dasharray:none"
+           id="path158"
+           sodipodi:type="arc"
+           sodipodi:cx="256"
+           sodipodi:cy="130"
+           sodipodi:rx="512"
+           sodipodi:ry="512"
+           sodipodi:start="0"
+           sodipodi:end="3.1415927"
+           sodipodi:arc-type="slice"
+           d="M 768,130 A 512,512 0 0 1 511.99999,573.40501 512,512 0 0 1 -1.3719012e-5,573.405 512,512 0 0 1 -256,130 h 512 z" />
+        <path
+           style="display:inline;fill:url(#meshgradient173499);fill-opacity:1;stroke:none;stroke-width:0.40616;stroke-linecap:square;stroke-dasharray:none"
+           id="path173499"
+           sodipodi:type="arc"
+           sodipodi:cx="256"
+           sodipodi:cy="130"
+           sodipodi:rx="137.55283"
+           sodipodi:ry="137.55283"
+           sodipodi:start="0"
+           sodipodi:end="3.1415927"
+           sodipodi:arc-type="slice"
+           d="m 393.55283,130 a 137.55283,137.55283 0 0 1 -68.77642,119.12424 137.55283,137.55283 0 0 1 -137.55283,0 A 137.55283,137.55283 0 0 1 118.44717,130 H 256 Z"
+           inkscape:transform-center-y="68.776413" />
+        <path
+           style="display:inline;fill:url(#meshgradient173601);fill-opacity:1;stroke:none;stroke-width:0.102474;stroke-linecap:square;stroke-dasharray:none"
+           id="path173601"
+           sodipodi:type="arc"
+           sodipodi:cx="256"
+           sodipodi:cy="130"
+           sodipodi:rx="34.70467"
+           sodipodi:ry="34.70467"
+           sodipodi:start="0"
+           sodipodi:end="3.1415927"
+           sodipodi:arc-type="slice"
+           d="m 290.70467,130 a 34.70467,34.70467 0 0 1 -17.35234,30.05513 34.70467,34.70467 0 0 1 -34.70467,0 A 34.70467,34.70467 0 0 1 221.29533,130 H 256 Z"
+           inkscape:transform-center-y="17.352335" />
+        <path
+           style="display:inline;fill:url(#meshgradient173704);fill-opacity:1;stroke:none;stroke-width:0.029505;stroke-linecap:square;stroke-dasharray:none"
+           id="path173704"
+           sodipodi:type="arc"
+           sodipodi:cx="256"
+           sodipodi:cy="130"
+           sodipodi:rx="9.9924173"
+           sodipodi:ry="9.9924173"
+           sodipodi:start="0"
+           sodipodi:end="3.1415927"
+           sodipodi:arc-type="slice"
+           d="m 265.99242,130 a 9.9924173,9.9924173 0 0 1 -4.99621,8.65369 9.9924173,9.9924173 0 0 1 -9.99242,0 A 9.9924173,9.9924173 0 0 1 246.00758,130 H 256 Z"
+           inkscape:transform-center-y="4.9962087" />
+      </g>
+      <path
+         style="fill:#fffac7;fill-opacity:1;stroke:none;stroke-width:13.3856;stroke-linecap:square;stroke-dasharray:none"
+         id="path173807"
+         sodipodi:type="arc"
+         sodipodi:cx="256"
+         sodipodi:cy="-130"
+         sodipodi:rx="503.57199"
+         sodipodi:ry="503.57199"
+         sodipodi:start="0"
+         sodipodi:end="3.1415927"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="M 759.57199,-130 A 503.57199,503.57199 0 0 1 507.78599,306.10614 503.57199,503.57199 0 0 1 4.213991,306.10613 503.57199,503.57199 0 0 1 -247.57199,-130"
+         inkscape:transform-center-y="-251.786"
+         transform="scale(1,-1)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:26.6667px;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:12, 12;stroke-dashoffset:0;stroke-opacity:1"
+       x="189.97491"
+       y="385.63013"
+       id="text173832"><tspan
+         sodipodi:role="line"
+         id="tspan173832"
+         x="189.97491"
+         y="385.63013">Penumbra</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Guides"
+     style="display:none">
+    <g
+       id="g173809">
+      <path
+         style="display:inline;fill:none;stroke:#bfbfbf;stroke-width:1.51181;stroke-linecap:square;stroke-dasharray:none"
+         id="path105668"
+         sodipodi:type="arc"
+         sodipodi:cx="256"
+         sodipodi:cy="130"
+         sodipodi:rx="512"
+         sodipodi:ry="512"
+         sodipodi:start="1.4279967"
+         sodipodi:end="1.713596"
+         sodipodi:arc-type="slice"
+         d="m 328.86518,636.78858 a 512,512 0 0 1 -145.73038,0 L 256,130 Z" />
+      <path
+         style="display:inline;fill:none;stroke:#bfbfbf;stroke-width:1.51181;stroke-linecap:square;stroke-dasharray:none"
+         id="path173498"
+         sodipodi:type="arc"
+         sodipodi:cx="256"
+         sodipodi:cy="-130"
+         sodipodi:rx="512"
+         sodipodi:ry="512"
+         sodipodi:start="1.4279967"
+         sodipodi:end="1.713596"
+         sodipodi:arc-type="slice"
+         d="m 328.86518,376.78858 a 512,512 0 0 1 -145.73038,0 L 256,-130 Z"
+         inkscape:transform-center-x="1.1760081e-05"
+         inkscape:transform-center-y="-256"
+         transform="scale(1,-1)" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Markings"
+     style="display:inline">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:square;stroke-dasharray:12,12;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 242.7724,38 86.09278,598.78858"
+       id="path173809" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:square;stroke-dasharray:12,12;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 269.2276,38 183.13482,636.78858"
+       id="path173810"
+       inkscape:transform-center-x="29.81879"
+       inkscape:transform-center-y="207.39429" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 269.2276,38 H 314.5"
+       id="path173814"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 256,130 h 58.5"
+       id="path173815"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ConcaveTriangle);marker-end:url(#marker173817)"
+       d="m 300.5,44.8 v 79.53724"
+       id="path173816"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 242.7724,38 V 12.9047"
+       id="path173820" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 269.2276,38 V 12.9047"
+       id="path173821" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 235.64334,20.59449 H 314.5"
+       id="path173824" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 230.6052,20.59449 7.04068,0"
+       id="path173825"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker173827)"
+       d="M 293.18415,20.59449 H 274.18779"
+       id="path173826"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="304.93979"
+       y="12.9047"
+       id="text173827"><tspan
+         sodipodi:role="line"
+         id="tspan173827"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.6667px;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="304.93979"
+       y="17.322721"
+       id="text173828"><tspan
+         sodipodi:role="line"
+         id="tspan173828"
+         x="304.93979"
+         y="17.322721">ω</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.6667px;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="304.93979"
+       y="91.922485"
+       id="text173829"><tspan
+         sodipodi:role="line"
+         id="tspan173829"
+         x="304.93979"
+         y="91.922485">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.6667px;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:12, 12;stroke-dashoffset:0;stroke-opacity:1"
+       x="68.532997"
+       y="48.098335"
+       id="text173830"><tspan
+         sodipodi:role="line"
+         id="tspan173830"
+         x="68.532997"
+         y="48.098335">Light source</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.6667px;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-linecap:round;stroke-dasharray:12, 12;stroke-dashoffset:0;stroke-opacity:1"
+       x="4.418025"
+       y="116.76197"
+       id="text173831"><tspan
+         sodipodi:role="line"
+         id="tspan173831"
+         x="4.418025"
+         y="116.76197">Opaque half plane</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Light">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffd800;stroke-width:4;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 242.7724,38 h 26.4552"
+       id="path173812" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#404040;stroke-width:5;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 256,130 H -82.731493"
+       id="path173813" />
+  </g>
+  <script
+     id="mesh_polyfill"
+     type="text/javascript">&#10;!function(){const t=&quot;http://www.w3.org/2000/svg&quot;,e=&quot;http://www.w3.org/1999/xlink&quot;,s=&quot;http://www.w3.org/1999/xhtml&quot;,r=2;if(document.createElementNS(t,&quot;meshgradient&quot;).x)return;const n=(t,e,s,r)=&gt;{let n=new x(.5*(e.x+s.x),.5*(e.y+s.y)),o=new x(.5*(t.x+e.x),.5*(t.y+e.y)),i=new x(.5*(s.x+r.x),.5*(s.y+r.y)),a=new x(.5*(n.x+o.x),.5*(n.y+o.y)),h=new x(.5*(n.x+i.x),.5*(n.y+i.y)),l=new x(.5*(a.x+h.x),.5*(a.y+h.y));return[[t,o,a,l],[l,h,i,r]]},o=t=&gt;{let e=t[0].distSquared(t[1]),s=t[2].distSquared(t[3]),r=.25*t[0].distSquared(t[2]),n=.25*t[1].distSquared(t[3]),o=e&gt;s?e:s,i=r&gt;n?r:n;return 18*(o&gt;i?o:i)},i=(t,e)=&gt;Math.sqrt(t.distSquared(e)),a=(t,e)=&gt;t.scale(2/3).add(e.scale(1/3)),h=t=&gt;{let e,s,r,n,o,i,a,h=new g;return t.match(/(\w+\(\s*[^)]+\))+/g).forEach(t=&gt;{let l=t.match(/[\w.-]+/g),d=l.shift();switch(d){case&quot;translate&quot;:2===l.length?e=new g(1,0,0,1,l[0],l[1]):(console.error(&quot;mesh.js: translate does not have 2 arguments!&quot;),e=new g(1,0,0,1,0,0)),h=h.append(e);break;case&quot;scale&quot;:1===l.length?s=new g(l[0],0,0,l[0],0,0):2===l.length?s=new g(l[0],0,0,l[1],0,0):(console.error(&quot;mesh.js: scale does not have 1 or 2 arguments!&quot;),s=new g(1,0,0,1,0,0)),h=h.append(s);break;case&quot;rotate&quot;:if(3===l.length&amp;&amp;(e=new g(1,0,0,1,l[1],l[2]),h=h.append(e)),l[0]){r=l[0]*Math.PI/180;let t=Math.cos(r),e=Math.sin(r);Math.abs(t)&lt;1e-16&amp;&amp;(t=0),Math.abs(e)&lt;1e-16&amp;&amp;(e=0),a=new g(t,e,-e,t,0,0),h=h.append(a)}else console.error(&quot;math.js: No argument to rotate transform!&quot;);3===l.length&amp;&amp;(e=new g(1,0,0,1,-l[1],-l[2]),h=h.append(e));break;case&quot;skewX&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),o=new g(1,0,n,1,0,0),h=h.append(o)):console.error(&quot;math.js: No argument to skewX transform!&quot;);break;case&quot;skewY&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),i=new g(1,n,0,1,0,0),h=h.append(i)):console.error(&quot;math.js: No argument to skewY transform!&quot;);break;case&quot;matrix&quot;:6===l.length?h=h.append(new g(...l)):console.error(&quot;math.js: Incorrect number of arguments for matrix!&quot;);break;default:console.error(&quot;mesh.js: Unhandled transform type: &quot;+d)}}),h},l=t=&gt;{let e=[],s=t.split(/[ ,]+/);for(let t=0,r=s.length-1;t&lt;r;t+=2)e.push(new x(parseFloat(s[t]),parseFloat(s[t+1])));return e},d=(t,e)=&gt;{for(let s in e)t.setAttribute(s,e[s])},c=(t,e,s,r,n)=&gt;{let o,i,a=[0,0,0,0];for(let h=0;h&lt;3;++h)e[h]&lt;t[h]&amp;&amp;e[h]&lt;s[h]||t[h]&lt;e[h]&amp;&amp;s[h]&lt;e[h]?a[h]=0:(a[h]=.5*((e[h]-t[h])/r+(s[h]-e[h])/n),o=Math.abs(3*(e[h]-t[h])/r),i=Math.abs(3*(s[h]-e[h])/n),a[h]&gt;o?a[h]=o:a[h]&gt;i&amp;&amp;(a[h]=i));return a},u=[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[-3,3,0,0,-2,-1,0,0,0,0,0,0,0,0,0,0],[2,-2,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,-3,3,0,0,-2,-1,0,0],[0,0,0,0,0,0,0,0,2,-2,0,0,1,1,0,0],[-3,0,3,0,0,0,0,0,-2,0,-1,0,0,0,0,0],[0,0,0,0,-3,0,3,0,0,0,0,0,-2,0,-1,0],[9,-9,-9,9,6,3,-6,-3,6,-6,3,-3,4,2,2,1],[-6,6,6,-6,-3,-3,3,3,-4,4,-2,2,-2,-2,-1,-1],[2,0,-2,0,0,0,0,0,1,0,1,0,0,0,0,0],[0,0,0,0,2,0,-2,0,0,0,0,0,1,0,1,0],[-6,6,6,-6,-4,-2,4,2,-3,3,-3,3,-2,-1,-2,-1],[4,-4,-4,4,2,2,-2,-2,2,-2,2,-2,1,1,1,1]],f=t=&gt;{let e=[];for(let s=0;s&lt;16;++s){e[s]=0;for(let r=0;r&lt;16;++r)e[s]+=u[s][r]*t[r]}return e},p=(t,e,s)=&gt;{const r=e*e,n=s*s,o=e*e*e,i=s*s*s;return t[0]+t[1]*e+t[2]*r+t[3]*o+t[4]*s+t[5]*s*e+t[6]*s*r+t[7]*s*o+t[8]*n+t[9]*n*e+t[10]*n*r+t[11]*n*o+t[12]*i+t[13]*i*e+t[14]*i*r+t[15]*i*o},y=t=&gt;{let e=[],s=[],r=[];for(let s=0;s&lt;4;++s)e[s]=[],e[s][0]=n(t[0][s],t[1][s],t[2][s],t[3][s]),e[s][1]=[],e[s][1].push(...n(...e[s][0][0])),e[s][1].push(...n(...e[s][0][1])),e[s][2]=[],e[s][2].push(...n(...e[s][1][0])),e[s][2].push(...n(...e[s][1][1])),e[s][2].push(...n(...e[s][1][2])),e[s][2].push(...n(...e[s][1][3]));for(let t=0;t&lt;8;++t){s[t]=[];for(let r=0;r&lt;4;++r)s[t][r]=[],s[t][r][0]=n(e[0][2][t][r],e[1][2][t][r],e[2][2][t][r],e[3][2][t][r]),s[t][r][1]=[],s[t][r][1].push(...n(...s[t][r][0][0])),s[t][r][1].push(...n(...s[t][r][0][1])),s[t][r][2]=[],s[t][r][2].push(...n(...s[t][r][1][0])),s[t][r][2].push(...n(...s[t][r][1][1])),s[t][r][2].push(...n(...s[t][r][1][2])),s[t][r][2].push(...n(...s[t][r][1][3]))}for(let t=0;t&lt;8;++t){r[t]=[];for(let e=0;e&lt;8;++e)r[t][e]=[],r[t][e][0]=s[t][0][2][e],r[t][e][1]=s[t][1][2][e],r[t][e][2]=s[t][2][2][e],r[t][e][3]=s[t][3][2][e]}return r};class x{constructor(t,e){this.x=t||0,this.y=e||0}toString(){return`(x=${this.x}, y=${this.y})`}clone(){return new x(this.x,this.y)}add(t){return new x(this.x+t.x,this.y+t.y)}scale(t){return void 0===t.x?new x(this.x*t,this.y*t):new x(this.x*t.x,this.y*t.y)}distSquared(t){let e=this.x-t.x,s=this.y-t.y;return e*e+s*s}transform(t){let e=this.x*t.a+this.y*t.c+t.e,s=this.x*t.b+this.y*t.d+t.f;return new x(e,s)}}class g{constructor(t,e,s,r,n,o){void 0===t?(this.a=1,this.b=0,this.c=0,this.d=1,this.e=0,this.f=0):(this.a=t,this.b=e,this.c=s,this.d=r,this.e=n,this.f=o)}toString(){return`affine: ${this.a} ${this.c} ${this.e} \n       ${this.b} ${this.d} ${this.f}`}append(t){t instanceof g||console.error(&quot;mesh.js: argument to Affine.append is not affine!&quot;);let e=this.a*t.a+this.c*t.b,s=this.b*t.a+this.d*t.b,r=this.a*t.c+this.c*t.d,n=this.b*t.c+this.d*t.d,o=this.a*t.e+this.c*t.f+this.e,i=this.b*t.e+this.d*t.f+this.f;return new g(e,s,r,n,o,i)}}class w{constructor(t,e){this.nodes=t,this.colors=e}paintCurve(t,e){if(o(this.nodes)&gt;r){const s=n(...this.nodes);let r=[[],[]],o=[[],[]];for(let t=0;t&lt;4;++t)r[0][t]=this.colors[0][t],r[1][t]=(this.colors[0][t]+this.colors[1][t])/2,o[0][t]=r[1][t],o[1][t]=this.colors[1][t];let i=new w(s[0],r),a=new w(s[1],o);i.paintCurve(t,e),a.paintCurve(t,e)}else{let s=Math.round(this.nodes[0].x);if(s&gt;=0&amp;&amp;s&lt;e){let r=4*(~~this.nodes[0].y*e+s);t[r]=Math.round(this.colors[0][0]),t[r+1]=Math.round(this.colors[0][1]),t[r+2]=Math.round(this.colors[0][2]),t[r+3]=Math.round(this.colors[0][3])}}}}class m{constructor(t,e){this.nodes=t,this.colors=e}split(){let t=[[],[],[],[]],e=[[],[],[],[]],s=[[[],[]],[[],[]]],r=[[[],[]],[[],[]]];for(let s=0;s&lt;4;++s){const r=n(this.nodes[0][s],this.nodes[1][s],this.nodes[2][s],this.nodes[3][s]);t[0][s]=r[0][0],t[1][s]=r[0][1],t[2][s]=r[0][2],t[3][s]=r[0][3],e[0][s]=r[1][0],e[1][s]=r[1][1],e[2][s]=r[1][2],e[3][s]=r[1][3]}for(let t=0;t&lt;4;++t)s[0][0][t]=this.colors[0][0][t],s[0][1][t]=this.colors[0][1][t],s[1][0][t]=(this.colors[0][0][t]+this.colors[1][0][t])/2,s[1][1][t]=(this.colors[0][1][t]+this.colors[1][1][t])/2,r[0][0][t]=s[1][0][t],r[0][1][t]=s[1][1][t],r[1][0][t]=this.colors[1][0][t],r[1][1][t]=this.colors[1][1][t];return[new m(t,s),new m(e,r)]}paint(t,e){let s,n=!1;for(let t=0;t&lt;4;++t)if((s=o([this.nodes[0][t],this.nodes[1][t],this.nodes[2][t],this.nodes[3][t]]))&gt;r){n=!0;break}if(n){let s=this.split();s[0].paint(t,e),s[1].paint(t,e)}else{new w([...this.nodes[0]],[...this.colors[0]]).paintCurve(t,e)}}}class b{constructor(t){this.readMesh(t),this.type=t.getAttribute(&quot;type&quot;)||&quot;bilinear&quot;}readMesh(t){let e=[[]],s=[[]],r=Number(t.getAttribute(&quot;x&quot;)),n=Number(t.getAttribute(&quot;y&quot;));e[0][0]=new x(r,n);let o=t.children;for(let t=0,r=o.length;t&lt;r;++t){e[3*t+1]=[],e[3*t+2]=[],e[3*t+3]=[],s[t+1]=[];let r=o[t].children;for(let n=0,o=r.length;n&lt;o;++n){let o=r[n].children;for(let r=0,i=o.length;r&lt;i;++r){let i=r;0!==t&amp;&amp;++i;let h,d=o[r].getAttribute(&quot;path&quot;),c=&quot;l&quot;;null!=d&amp;&amp;(c=(h=d.match(/\s*([lLcC])\s*(.*)/))[1]);let u=l(h[2]);switch(c){case&quot;l&quot;:0===i?(e[3*t][3*n+3]=u[0].add(e[3*t][3*n]),e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0].add(e[3*t+3][3*n+3])),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;L&quot;:0===i?(e[3*t][3*n+3]=u[0],e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0],e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0]),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;c&quot;:0===i?(e[3*t][3*n+1]=u[0].add(e[3*t][3*n]),e[3*t][3*n+2]=u[1].add(e[3*t][3*n]),e[3*t][3*n+3]=u[2].add(e[3*t][3*n])):1===i?(e[3*t+1][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+2][3*n+3]=u[1].add(e[3*t][3*n+3]),e[3*t+3][3*n+3]=u[2].add(e[3*t][3*n+3])):2===i?(e[3*t+3][3*n+2]=u[0].add(e[3*t+3][3*n+3]),e[3*t+3][3*n+1]=u[1].add(e[3*t+3][3*n+3]),0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2].add(e[3*t+3][3*n+3]))):(e[3*t+2][3*n]=u[0].add(e[3*t+3][3*n]),e[3*t+1][3*n]=u[1].add(e[3*t+3][3*n]));break;case&quot;C&quot;:0===i?(e[3*t][3*n+1]=u[0],e[3*t][3*n+2]=u[1],e[3*t][3*n+3]=u[2]):1===i?(e[3*t+1][3*n+3]=u[0],e[3*t+2][3*n+3]=u[1],e[3*t+3][3*n+3]=u[2]):2===i?(e[3*t+3][3*n+2]=u[0],e[3*t+3][3*n+1]=u[1],0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2])):(e[3*t+2][3*n]=u[0],e[3*t+1][3*n]=u[1]);break;default:console.error(&quot;mesh.js: &quot;+c+&quot; invalid path type.&quot;)}if(0===t&amp;&amp;0===n||r&gt;0){let e=window.getComputedStyle(o[r]).stopColor.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i),a=window.getComputedStyle(o[r]).stopOpacity,h=255;a&amp;&amp;(h=Math.floor(255*a)),e&amp;&amp;(0===i?(s[t][n]=[],s[t][n][0]=Math.floor(e[1]),s[t][n][1]=Math.floor(e[2]),s[t][n][2]=Math.floor(e[3]),s[t][n][3]=h):1===i?(s[t][n+1]=[],s[t][n+1][0]=Math.floor(e[1]),s[t][n+1][1]=Math.floor(e[2]),s[t][n+1][2]=Math.floor(e[3]),s[t][n+1][3]=h):2===i?(s[t+1][n+1]=[],s[t+1][n+1][0]=Math.floor(e[1]),s[t+1][n+1][1]=Math.floor(e[2]),s[t+1][n+1][2]=Math.floor(e[3]),s[t+1][n+1][3]=h):3===i&amp;&amp;(s[t+1][n]=[],s[t+1][n][0]=Math.floor(e[1]),s[t+1][n][1]=Math.floor(e[2]),s[t+1][n][2]=Math.floor(e[3]),s[t+1][n][3]=h))}}e[3*t+1][3*n+1]=new x,e[3*t+1][3*n+2]=new x,e[3*t+2][3*n+1]=new x,e[3*t+2][3*n+2]=new x,e[3*t+1][3*n+1].x=(-4*e[3*t][3*n].x+6*(e[3*t][3*n+1].x+e[3*t+1][3*n].x)+-2*(e[3*t][3*n+3].x+e[3*t+3][3*n].x)+3*(e[3*t+3][3*n+1].x+e[3*t+1][3*n+3].x)+-1*e[3*t+3][3*n+3].x)/9,e[3*t+1][3*n+2].x=(-4*e[3*t][3*n+3].x+6*(e[3*t][3*n+2].x+e[3*t+1][3*n+3].x)+-2*(e[3*t][3*n].x+e[3*t+3][3*n+3].x)+3*(e[3*t+3][3*n+2].x+e[3*t+1][3*n].x)+-1*e[3*t+3][3*n].x)/9,e[3*t+2][3*n+1].x=(-4*e[3*t+3][3*n].x+6*(e[3*t+3][3*n+1].x+e[3*t+2][3*n].x)+-2*(e[3*t+3][3*n+3].x+e[3*t][3*n].x)+3*(e[3*t][3*n+1].x+e[3*t+2][3*n+3].x)+-1*e[3*t][3*n+3].x)/9,e[3*t+2][3*n+2].x=(-4*e[3*t+3][3*n+3].x+6*(e[3*t+3][3*n+2].x+e[3*t+2][3*n+3].x)+-2*(e[3*t+3][3*n].x+e[3*t][3*n+3].x)+3*(e[3*t][3*n+2].x+e[3*t+2][3*n].x)+-1*e[3*t][3*n].x)/9,e[3*t+1][3*n+1].y=(-4*e[3*t][3*n].y+6*(e[3*t][3*n+1].y+e[3*t+1][3*n].y)+-2*(e[3*t][3*n+3].y+e[3*t+3][3*n].y)+3*(e[3*t+3][3*n+1].y+e[3*t+1][3*n+3].y)+-1*e[3*t+3][3*n+3].y)/9,e[3*t+1][3*n+2].y=(-4*e[3*t][3*n+3].y+6*(e[3*t][3*n+2].y+e[3*t+1][3*n+3].y)+-2*(e[3*t][3*n].y+e[3*t+3][3*n+3].y)+3*(e[3*t+3][3*n+2].y+e[3*t+1][3*n].y)+-1*e[3*t+3][3*n].y)/9,e[3*t+2][3*n+1].y=(-4*e[3*t+3][3*n].y+6*(e[3*t+3][3*n+1].y+e[3*t+2][3*n].y)+-2*(e[3*t+3][3*n+3].y+e[3*t][3*n].y)+3*(e[3*t][3*n+1].y+e[3*t+2][3*n+3].y)+-1*e[3*t][3*n+3].y)/9,e[3*t+2][3*n+2].y=(-4*e[3*t+3][3*n+3].y+6*(e[3*t+3][3*n+2].y+e[3*t+2][3*n+3].y)+-2*(e[3*t+3][3*n].y+e[3*t][3*n+3].y)+3*(e[3*t][3*n+2].y+e[3*t+2][3*n].y)+-1*e[3*t][3*n].y)/9}}this.nodes=e,this.colors=s}paintMesh(t,e){let s=(this.nodes.length-1)/3,r=(this.nodes[0].length-1)/3;if(&quot;bilinear&quot;===this.type||s&lt;2||r&lt;2){let n;for(let o=0;o&lt;s;++o)for(let s=0;s&lt;r;++s){let r=[];for(let t=3*o,e=3*o+4;t&lt;e;++t)r.push(this.nodes[t].slice(3*s,3*s+4));let i=[];i.push(this.colors[o].slice(s,s+2)),i.push(this.colors[o+1].slice(s,s+2)),(n=new m(r,i)).paint(t,e)}}else{let n,o,a,h,l,d,u;const x=s,g=r;s++,r++;let w=new Array(s);for(let t=0;t&lt;s;++t){w[t]=new Array(r);for(let e=0;e&lt;r;++e)w[t][e]=[],w[t][e][0]=this.nodes[3*t][3*e],w[t][e][1]=this.colors[t][e]}for(let t=0;t&lt;s;++t)for(let e=0;e&lt;r;++e)0!==t&amp;&amp;t!==x&amp;&amp;(n=i(w[t-1][e][0],w[t][e][0]),o=i(w[t+1][e][0],w[t][e][0]),w[t][e][2]=c(w[t-1][e][1],w[t][e][1],w[t+1][e][1],n,o)),0!==e&amp;&amp;e!==g&amp;&amp;(n=i(w[t][e-1][0],w[t][e][0]),o=i(w[t][e+1][0],w[t][e][0]),w[t][e][3]=c(w[t][e-1][1],w[t][e][1],w[t][e+1][1],n,o));for(let t=0;t&lt;r;++t){w[0][t][2]=[],w[x][t][2]=[];for(let e=0;e&lt;4;++e)n=i(w[1][t][0],w[0][t][0]),o=i(w[x][t][0],w[x-1][t][0]),w[0][t][2][e]=n&gt;0?2*(w[1][t][1][e]-w[0][t][1][e])/n-w[1][t][2][e]:0,w[x][t][2][e]=o&gt;0?2*(w[x][t][1][e]-w[x-1][t][1][e])/o-w[x-1][t][2][e]:0}for(let t=0;t&lt;s;++t){w[t][0][3]=[],w[t][g][3]=[];for(let e=0;e&lt;4;++e)n=i(w[t][1][0],w[t][0][0]),o=i(w[t][g][0],w[t][g-1][0]),w[t][0][3][e]=n&gt;0?2*(w[t][1][1][e]-w[t][0][1][e])/n-w[t][1][3][e]:0,w[t][g][3][e]=o&gt;0?2*(w[t][g][1][e]-w[t][g-1][1][e])/o-w[t][g-1][3][e]:0}for(let s=0;s&lt;x;++s)for(let r=0;r&lt;g;++r){let n=i(w[s][r][0],w[s+1][r][0]),o=i(w[s][r+1][0],w[s+1][r+1][0]),c=i(w[s][r][0],w[s][r+1][0]),x=i(w[s+1][r][0],w[s+1][r+1][0]),g=[[],[],[],[]];for(let t=0;t&lt;4;++t){(d=[])[0]=w[s][r][1][t],d[1]=w[s+1][r][1][t],d[2]=w[s][r+1][1][t],d[3]=w[s+1][r+1][1][t],d[4]=w[s][r][2][t]*n,d[5]=w[s+1][r][2][t]*n,d[6]=w[s][r+1][2][t]*o,d[7]=w[s+1][r+1][2][t]*o,d[8]=w[s][r][3][t]*c,d[9]=w[s+1][r][3][t]*x,d[10]=w[s][r+1][3][t]*c,d[11]=w[s+1][r+1][3][t]*x,d[12]=0,d[13]=0,d[14]=0,d[15]=0,u=f(d);for(let e=0;e&lt;9;++e){g[t][e]=[];for(let s=0;s&lt;9;++s)g[t][e][s]=p(u,e/8,s/8),g[t][e][s]&gt;255?g[t][e][s]=255:g[t][e][s]&lt;0&amp;&amp;(g[t][e][s]=0)}}h=[];for(let t=3*s,e=3*s+4;t&lt;e;++t)h.push(this.nodes[t].slice(3*r,3*r+4));l=y(h);for(let s=0;s&lt;8;++s)for(let r=0;r&lt;8;++r)(a=new m(l[s][r],[[[g[0][s][r],g[1][s][r],g[2][s][r],g[3][s][r]],[g[0][s][r+1],g[1][s][r+1],g[2][s][r+1],g[3][s][r+1]]],[[g[0][s+1][r],g[1][s+1][r],g[2][s+1][r],g[3][s+1][r]],[g[0][s+1][r+1],g[1][s+1][r+1],g[2][s+1][r+1],g[3][s+1][r+1]]]])).paint(t,e)}}}transform(t){if(t instanceof x)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].add(t);else if(t instanceof g)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].transform(t)}scale(t){for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].scale(t)}}document.querySelectorAll(&quot;rect,circle,ellipse,path,text&quot;).forEach((r,n)=&gt;{let o=r.getAttribute(&quot;id&quot;);o||(o=&quot;patchjs_shape&quot;+n,r.setAttribute(&quot;id&quot;,o));const i=r.style.fill.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/),a=r.style.stroke.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/);if(i&amp;&amp;i[1]){const a=document.getElementById(i[1]);if(a&amp;&amp;&quot;meshgradient&quot;===a.nodeName){const i=r.getBBox();let l=document.createElementNS(s,&quot;canvas&quot;);d(l,{width:i.width,height:i.height});const c=l.getContext(&quot;2d&quot;);let u=c.createImageData(i.width,i.height);const f=new b(a);&quot;objectBoundingBox&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.scale(new x(i.width,i.height));const p=a.getAttribute(&quot;gradientTransform&quot;);null!=p&amp;&amp;f.transform(h(p)),&quot;userSpaceOnUse&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.transform(new x(-i.x,-i.y)),f.paintMesh(u.data,l.width),c.putImageData(u,0,0);const y=document.createElementNS(t,&quot;image&quot;);d(y,{width:i.width,height:i.height,x:i.x,y:i.y});let g=l.toDataURL();y.setAttributeNS(e,&quot;xlink:href&quot;,g),r.parentNode.insertBefore(y,r),r.style.fill=&quot;none&quot;;const w=document.createElementNS(t,&quot;use&quot;);w.setAttributeNS(e,&quot;xlink:href&quot;,&quot;#&quot;+o);const m=&quot;patchjs_clip&quot;+n,M=document.createElementNS(t,&quot;clipPath&quot;);M.setAttribute(&quot;id&quot;,m),M.appendChild(w),r.parentElement.insertBefore(M,r),y.setAttribute(&quot;clip-path&quot;,&quot;url(#&quot;+m+&quot;)&quot;),u=null,l=null,g=null}}if(a&amp;&amp;a[1]){const o=document.getElementById(a[1]);if(o&amp;&amp;&quot;meshgradient&quot;===o.nodeName){const i=parseFloat(r.style.strokeWidth.slice(0,-2))*(parseFloat(r.style.strokeMiterlimit)||parseFloat(r.getAttribute(&quot;stroke-miterlimit&quot;))||1),a=r.getBBox(),l=Math.trunc(a.width+i),c=Math.trunc(a.height+i),u=Math.trunc(a.x-i/2),f=Math.trunc(a.y-i/2);let p=document.createElementNS(s,&quot;canvas&quot;);d(p,{width:l,height:c});const y=p.getContext(&quot;2d&quot;);let g=y.createImageData(l,c);const w=new b(o);&quot;objectBoundingBox&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.scale(new x(l,c));const m=o.getAttribute(&quot;gradientTransform&quot;);null!=m&amp;&amp;w.transform(h(m)),&quot;userSpaceOnUse&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.transform(new x(-u,-f)),w.paintMesh(g.data,p.width),y.putImageData(g,0,0);const M=document.createElementNS(t,&quot;image&quot;);d(M,{width:l,height:c,x:0,y:0});let S=p.toDataURL();M.setAttributeNS(e,&quot;xlink:href&quot;,S);const k=&quot;pattern_clip&quot;+n,A=document.createElementNS(t,&quot;pattern&quot;);d(A,{id:k,patternUnits:&quot;userSpaceOnUse&quot;,width:l,height:c,x:u,y:f}),A.appendChild(M),o.parentNode.appendChild(A),r.style.stroke=&quot;url(#&quot;+k+&quot;)&quot;,g=null,p=null,S=null}}})}();&#10;</script>
+</svg>
