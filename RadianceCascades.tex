@@ -26,7 +26,7 @@
        }
 
 \teaser{
-  \includegraphics[width=\textwidth]{images/gi_2d.png}
+  \includegraphics[width=0.95\textwidth]{images/gi_2d.png}
   \caption{\emph{Radiance cascades} used to calculate single-shot dynamic per-pixel global illumination in 2d.}
   \label{fig:teaser}
 }
@@ -36,7 +36,7 @@
 
 \begin{abstract}
 \small
-This work proposes a novel data structure called \emph{radiance cascades} that allows effectively storing and calculating radiance fields. \emph{Radiance cascades} exhibit a distinctly unique way of asymptotic scaling that for all practical purposes is equivalent to casting infinitely many rays in a finite amount of time, while using a finite amount of memory. This highly unusual property allows to effectively remove the total number of rays as the primary constraint for calculating global illumination in 2d and 3d. This allows capturing both high and low frequency lighting and occlusion details in fully dynamic scenes in realtime even without any additional denoising or temporal filtering.
+This work proposes a novel data structure called \emph{radiance cascades} that allows effectively storing and calculating radiance field by decomposing it into multiple ranges (from near-field to far-field) and storing them separately. \emph{Radiance cascades} exhibit a distinctly unique way of asymptotic scaling that for all practical purposes is equivalent to casting infinitely many rays in a finite amount of time, while using a finite amount of memory. This highly unusual property allows to effectively remove the total number of rays as the primary constraint for calculating global illumination in 2d and 3d. This allows capturing both high and low frequency lighting and occlusion details in fully dynamic scenes in realtime even without any additional denoising or temporal filtering.
 \end{abstract}
 
 
@@ -49,7 +49,7 @@ Global Illumination refers to the process of calculating more than one light bou
   \label{eqn:rendering}
 \end{equation}
   
-This equation is notoriously hard to solve in the general case either analytically or numerically, due to its inherent nature where every point of every object can cast or receive light from every other point of every other object and this light can also be occluded by any object between them. that is why in the field of graphics programming, the task of efficient calculation of global illumination has been one of the most crucial, yet among the most difficult tasks. In fact, some consider finding a fast and accurate solution to global illumination to be the ultimate goal or a holy grail of rendering.
+This equation is notoriously hard to solve in the general case, either analytically or numerically, due to its inherent nature where every point of every object can cast or receive light from every other point of every other object and this light can also be occluded by any object between them. that is why in the field of graphics programming, the task of efficient calculation of global illumination has been one of the most crucial, yet among the most difficult tasks. In fact, some consider finding a fast and accurate solution to global illumination to be the ultimate goal or a holy grail of rendering.
 
 Even though it is relatively straightforward to find an approximate solution to the rendering equation with methods like path tracing, these methods are generally not realtime \footnote{Notable "exception" of 1spp path tracing will be discussed in greater detail in \ref{sec:relatedwork}}, and even those methods that claim to be realtime in fact are typically not capable of converging to an accurate enough solution in one frame. This leads to a noisy solution and in order to mitigate it, practically all such methods have to heavily rely on spatial and/or temporal reuse of samples that inevitably leads to slow response of indirect lighting to scene changes and/or loss of high frequency details in indirect lighting.
 
@@ -60,10 +60,11 @@ As typically done in other approaches to solving global illumination, this work 
 \end{equation}
 This has become a standard practice in realtime rendering, because using an approach called \emph{radiosity}, this equation can be applied repeatedly to calculate multiple light bounces, and such a process converges to the same result as \ref{eqn:rendering}.
 
-The main contribution of this work is proposing a novel data structure called radiance cascades that allows efficient storage and calculation of radiance fields as well as the calculation of global illumination that is fast enough for many realtime applications and accurate enough to capture all frequencies of details: from high spatial frequency contact shadows to high angular frequency environment light.
-In fact, radiance fields are built "from scratch" every frame without reusing any data from the previous frame, and in a matter of milliseconds allows calculating a solution to global illumination
-that is accurate enough so that it does not need any additional denoising. Another crucial property of radiance cascades is that they are completely geometry-agnostic: they encode radiance
+The main contribution of this work is proposing a novel data structure called radiance cascades that decomposes a radiance field into multiple ranges (from near-field to far-field) and stores each range in its own cascade. This way of representing radiance fields is quite memory-efficient and provides a natural way of calculating global illumination that is fast enough for many realtime applications and accurate enough to capture all frequencies of details: from high spatial frequency contact shadows to high angular frequency environment light.
+In fact, radiance fields are built "from scratch" every frame without reusing any data from the previous frame, and in a matter of milliseconds allow calculating a solution to global illumination that is accurate enough so that it does not need any additional denoising. Another crucial property of radiance cascades is that they are completely geometry-agnostic: they encode radiance
 at a constant cost that is independent of scene complexity, number of light sources or polygons present in the scene.
+
+Each isolated radiance cascade is quite similar in its nature to a uniform grid of radiance probes, except instead of encoding full radiance, its probes store a different value called \emph{radiance interval} that corresponds to a specific range of the radiance field and a hierarchy of such cascades allows to accurately reconstruct the original radiance field.
 
 Practical implementation of radiance cascades is integrated into Path of Exile 2 as its global illumination solution \Cref{fig:poe2gi}. That specific implementation uses a flatland-like screenspace radiance cascade hierarchy and populates them using screenspace raymarching -- a choice motivated by PoE2's fixed camera.
 
