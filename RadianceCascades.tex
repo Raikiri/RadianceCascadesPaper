@@ -343,6 +343,7 @@ This means that methods utilizing raymarching don't need to actually raymarch an
 
 %Another crucial observation here is that if \emph{the penumbra hypothesis} holds and \emph{radiance interval} $L_{a,b}(\textbf{p}, \hat \omega)$ is discretized by a set of points $(\textbf{p}_i, \hat \omega_i)$ that satisfies the penumbra condition, then the original function $L_{a,b}(\textbf{p}, \hat \omega)$ can be approximated well enough by linearly interpolating between discrete values $L_{a,b}(\textbf{p}_i, \hat \omega_i)$ \label{fact:int}. In fact, this property of linear interpolability(?) is what it in fact means for a discretization to be representative of a field in the definition of \emph{the penumbra hypothesis}.
 
+
 \subsection{Radiance cascades}
 \label{sec:radiance_cascades}
 Now it is possible to construct a general-purpose scene-independent and BRDF-independent discretization scheme of an arbitrary radiance function $L(\textbf p, \hat \omega)$ that relies only on the penumbra hypothesis.
@@ -447,6 +448,15 @@ An example of surface cascades' memory layout is shown on \ref{fig:surface_casca
   \caption{\label{fig:surface_cascades}
      An example of surface radiance cascade hierarchy: cascade 0 on the left has 16x16 probes, each with 8x8 resolution, cascade 1 has 8x8 probes each with 16x16 resolution, etc. Width of this atlas grows linearly with the number of cascades.}
 \end{figure}
+
+\subsection{Calculating indirect lighting with radiance cascades}
+Once radiance cascades are calculated, they can be used to calculate an approximation of the rendering equation \cref{eqn:rendering} that gives outgoing/exitant radiance or the final "visible" color of a render surface.
+
+This equation can be calculated numerically in a naive way, by sampling a set of directions for each point, and querying $L_{\mathrm{in}}$ from the radiance cascades. However, it can be done much more efficiently by introducing a very small amount of bias for some of the common BRDF's.
+
+For calculating diffuse lighting (irradiance), it's possible to merge all cascades $N-1..0$ onto cascade 0 and then calculate the integral using its relatively few discrete directions. This can be done efficiently, because projecting cascade $i+1$ onto cascade $i$ can be done quite cheaply by just averaging 2 or 4 texels of cascade $i+1$ and merging the result with a texel of cascade $i$, at the end of such chain cascade 0 will contain an approximation of full radiance for an entire solid angle corresponding to each of its probes' texels. The reason why approach introduces only a small bias for diffuse lighting is because the multiplier under the integral $ f(\textbf p, \hat \omega_\mathrm{in}, \hat{\omega}_\mathrm{out}) \cdot |\hat{n} \cdot \hat{\omega}_\mathrm{in} |$ has a very low directional frequency, so the integral can be calculated efficiently by having just a few samples of incoming radiance averaged over relatively large cones.
+
+Specular lighting can be approximated by incoming radiance averaged over a single cone in the direction of reflected view vector with its angle defined by the surface roughness. Averaging radiance over a cone can be done using radiance cascades in $O(N)$ where $N$ is the number of cascades. Minimum angle of a cone approximated with radiance cascades can be achieved by querying a radiance interval from each cascade individually and then merging all such intervals: this results in an approximation of radiance cone with an angle equal to directional step of cascade $N$.  Maximum angle of a cone can be achieved by merging all cascades first and then querying a single direction from merged cascade 0: this will result in a wide cone corresponding to directional step of cascade 0. And every intermediate value of radiance cone angle can be achieved by querying $0..K$ radiance intervals from individual cascades, then merging the remaining $K+1..N$ and merging the result with a single query from a merged cascade $K$.
 
 \section{Analysis}
 
@@ -623,13 +633,13 @@ In order to explore properties of radiance cascades, I implemented a separate pr
 \subsection{Screen space probes with world space radiance intervals}
 It's also possible to calculate one world-space bounce of indirect by using screenspace radiance cascade. In order to achieve this, a hierarchy of image-space probes akin to \emph{surface radiance cascades} \cref{sec:direct_radiance_field} can be used, where probes of cascade $i$ are represented as octahedral maps of size $\sim 2^i \cdot 2^i$ texels each and probes are placed on the depth buffer $~2^i$ pixels apart. This probe arrangement is very similar to \cref{fig:surface_cascades} and the only difference is that instead of being placed on a flat surface, probes are placed on the depth buffer geometry.
 
-In order to interpolate radiance interval inside one such a cascade, bilateral interpolation is used in space (so that only adjactent probes with similar depth contribute) and bilinear interpolation is used in direction.
+In order to interpolate radiance interval inside one such a cascade, bilateral interpolation is used in space (so that only adjacent probes with similar depth contribute) and bilinear interpolation is used in direction.
 
 This arrangement scales differently to a flatland-like implementation used in PoE2, it also works much less efficiently than screenspace raymarching, but its main advantage is that probes of size $\sim 2^i \cdot 2^i$ can capture radiance intervals in world space, allowing invisible sources of indirect light to illuminate geometry on the screen. This include off-screen emissive or directly lit surfaces as well as surfaces occluded in the depth buffer. In comparison, PoE2 implementation uses probes that scale as $\sim 2^i \cdot 1$ (same as flatland), can't capture offscreen light sources, but it works 1 to 2 orders of magnitude faster in the end due to dramatically more efficient optimizations possible due to screenspace raymarching.
 
 To query radiance intervals between probes, bilateral interpolation is used, which reduces influence of adjacent probes that have a different value of the depth buffer associated with them. For directional interpolation, a simple bilinear interpolation is used.
 
-World space radiance intervals can be calculated in many different ways, including volume raymarching, raytracing (software and hardware): any acceleration structure can work, as long as it allows querying ray segments. The implementation that this work uses signed distance field raymarching purely because of convenience.
+World space radiance intervals can be calculated in many different ways, including volume raymarching, raytracing (software and hardware): any acceleration structure can work, as long as it allows querying ray segments. The implementation that this work uses signed distance field  \footnote{Authors of these SDFs (in the order of occurrence) are:  WAHa\_06x36, iq, leon, Kali, jb} raymarching purely because of convenience.
 
 This implementation also utilizes reprojection: each cascade can be efficiently reprojected from the previous frame to allow temporal accumulation over time. This allows to dramatically increase long-term convergence by sacrificing some lighting responsiveness.
 
@@ -644,15 +654,15 @@ This implementation also utilizes reprojection: each cascade can be efficiently 
   \includegraphics[width=0.49\columnwidth]{images/sdf_fractal_2.png}
   \includegraphics[width=0.49\columnwidth]{images/sdf_goopy2.png}
   \caption{\label{fig:sdf_world_space}
-     A demo of world space radiance intervals encoded in screenspace probes. Images demonstrate the possibility of capturing off-screen world-space lighting and occlusion information in screenspace probes. Each frame takes about 30-50ms to calculate on GTX3060 and each novel view takes 0.1-0.5s to converge due to temporal accumulation(exact time depends on fractal used).}
+     A demo of world space radiance intervals encoded in screenspace probes. Images demonstrate the possibility of capturing off-screen world-space lighting and occlusion information in screenspace probes. Each scene is represented as an analytical SDF and it's used for world space raymarching while calculating radiance cascades. Each frame takes about 30-50ms to calculate on GTX3060 and each novel view takes 0.1-0.5s to converge due to temporal accumulation(exact time depends on fractal used).}
 \end{figure}
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=0.49\columnwidth]{images/sdf_stress_tiny.png}
-  \includegraphics[width=0.49\columnwidth]{images/sdf_stress_many.png}
+  \includegraphics[width=\columnwidth]{images/sdf_stress_tiny.png}
+  \includegraphics[width=\columnwidth]{images/sdf_stress_many.png}
   \caption{\label{fig:sdf_stress_test}
-     Left: stress test with small indirect light sources, Right: stress test with many light sources. Indirect light even from small emissive surfaces can be observed and performance of the method does not depend on their number.}
+     Top: stress test with small indirect light sources, Bottom: stress test with many light sources. Indirect light even from small emissive surfaces can be observed and performance of the method does not depend on their number.}
 \end{figure}
 \clearpage
 \section{Limitations}
