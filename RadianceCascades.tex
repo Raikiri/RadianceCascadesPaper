@@ -26,7 +26,7 @@
        }
 
 \teaser{
-  \includegraphics[width=0.95\textwidth]{images/gi_2d.png}
+  \includegraphics[width=0.9\textwidth]{images/gi_2d.png}
   \caption{\emph{Radiance cascades} used to calculate single-shot dynamic per-pixel global illumination in 2d.}
   \label{fig:teaser}
 }
@@ -36,7 +36,8 @@
 
 \begin{abstract}
 \small
-This work proposes a novel data structure called \emph{radiance cascades} that allows effectively storing and calculating radiance field by decomposing it into multiple ranges (from near-field to far-field) and storing them separately. \emph{Radiance cascades} exhibit a distinctly unique way of asymptotic scaling that for all practical purposes is equivalent to casting infinitely many rays in a finite amount of time, while using a finite amount of memory. This highly unusual property allows to effectively remove the total number of rays as the primary constraint for calculating global illumination in 2d and 3d. This allows capturing both high and low frequency lighting and occlusion details in fully dynamic scenes in realtime even without any additional denoising or temporal filtering.
+This work proposes a novel data structure called \emph{radiance cascades} that allows effectively storing and calculating radiance field by decomposing it into multiple ranges (from near-field to far-field) and storing them separately. The idea of radiance cascades relies on an observation, that in order to resolve
+radiance emitted by an object, one needs to have higher linear resolution next to it, and higher angular resolution farther away from it. \emph{Radiance cascades} exhibit a distinctly unique way of asymptotic scaling that for all practical purposes is equivalent to casting infinitely many rays in a finite amount of time, while using a finite amount of memory. This highly unusual property allows to effectively remove the total number of rays as the primary constraint for calculating global illumination in 2d and 3d.
 \end{abstract}
 
 
@@ -337,7 +338,7 @@ and this interval can be merged with the original $L_{a,a+x}(\textbf{p}, \hat \o
     \label{eq:extending_intervals}
   \end{cases}
 \end{equation}
-This means that methods utilizing raymarching don't need to actually raymarch an entire interval $[a, b]$ to calculate radiance $L_{a,b}(\textbf{p}, \hat \omega)$. Instead, it is possible to raymarch only the range $[a, a + \frac{b-a}{2}]$ and then extend it by shifting and combining with itself in $O(1)$. Furthermore, even range $[a, a+\frac{b-a}{2}]$ can in turn be constructed by extending the range of $[a, a+\frac{b-a}{4}]$ just the same way. In other words, as long as precision allows, it is possible to avoid raymarching long paths and instead raymarch a tiny path and then doubling it by extending it with itself until it meets the necessary range.
+This means that methods utilizing raymarching don't need to actually raymarch an entire interval $[a, b]$ to calculate radiance $L_{a,b}(\textbf{p}, \hat \omega)$. Instead, it is possible to raymarch only the range $[a, a + \frac{b-a}{2}]$, store it in a radiance cascade and then extend this range twice by shifting an merging probes inside of the cascade in $O(1)$. Furthermore, even range $[a, a+\frac{b-a}{2}]$ can in turn be constructed by extending the range of $[a, a+\frac{b-a}{4}]$ just the same way. In other words, as long as precision allows, it is possible to avoid raymarching long paths and instead raymarch a tiny path and then keep iteratively doubling it by extending the cascade until it meets the necessary range.
 
 
 %Another crucial observation here is that if \emph{the penumbra hypothesis} holds and \emph{radiance interval} $L_{a,b}(\textbf{p}, \hat \omega)$ is discretized by a set of points $(\textbf{p}_i, \hat \omega_i)$ that satisfies the penumbra condition, then the original function $L_{a,b}(\textbf{p}, \hat \omega)$ can be approximated well enough by linearly interpolating between discrete values $L_{a,b}(\textbf{p}_i, \hat \omega_i)$ \label{fact:int}. In fact, this property of linear interpolability(?) is what it in fact means for a discretization to be representative of a field in the definition of \emph{the penumbra hypothesis}.
@@ -606,6 +607,7 @@ However, for a full 3d grid of probes it is possible to employ radiance interval
 
 \clearpage
 \subsection{Direct radiance field renderer}
+\label{sec:direct_radiance_field}
 In order to explore properties of radiance cascades, I implemented a separate program that renders their stored radiance fields directly. More specifically, first a radiance field of a volume is precalculated by path tracing during precomputation and is then stored into a surface radiance cascade hierarchy of a single quad. Then, in runtime this quad is rendered and shaded with radiance retrieved from this radiance cascade hierarchy. This setup effectively allows observing the initial volume and to render it with fully precomputed radiance (including specular lighting, multiple light bounces and refraction) in less than 0.5ms on GTX3060 (see Figure \ref{fig:cascade direct rendering}). The exact encoding scheme used in this case is identical to the one discussed in Section \ref{sub:surface_scaling}.
 
 \begin{figure}[htb]
@@ -617,6 +619,42 @@ In order to explore properties of radiance cascades, I implemented a separate pr
      A demo for directly observing radiance field encoded in \emph{radiance cascades}. Precomputed path traced volumetric data is stored in surface radiance cascades of on a quad, allowing to render it from an arbitrary view point in 0.5ms on GTX3060.}
 \end{figure}
 
+\clearpage
+\subsection{Screen space probes with world space radiance intervals}
+It's also possible to calculate one world-space bounce of indirect by using screenspace radiance cascade. In order to achieve this, a hierarchy of image-space probes akin to \emph{surface radiance cascades} \cref{sec:direct_radiance_field} can be used, where probes of cascade $i$ are represented as octahedral maps of size $\sim 2^i \cdot 2^i$ texels each and probes are placed on the depth buffer $~2^i$ pixels apart. This probe arrangement is very similar to \cref{fig:surface_cascades} and the only difference is that instead of being placed on a flat surface, probes are placed on the depth buffer geometry.
+
+In order to interpolate radiance interval inside one such a cascade, bilateral interpolation is used in space (so that only adjactent probes with similar depth contribute) and bilinear interpolation is used in direction.
+
+This arrangement scales differently to a flatland-like implementation used in PoE2, it also works much less efficiently than screenspace raymarching, but its main advantage is that probes of size $\sim 2^i \cdot 2^i$ can capture radiance intervals in world space, allowing invisible sources of indirect light to illuminate geometry on the screen. This include off-screen emissive or directly lit surfaces as well as surfaces occluded in the depth buffer. In comparison, PoE2 implementation uses probes that scale as $\sim 2^i \cdot 1$ (same as flatland), can't capture offscreen light sources, but it works 1 to 2 orders of magnitude faster in the end due to dramatically more efficient optimizations possible due to screenspace raymarching.
+
+To query radiance intervals between probes, bilateral interpolation is used, which reduces influence of adjacent probes that have a different value of the depth buffer associated with them. For directional interpolation, a simple bilinear interpolation is used.
+
+World space radiance intervals can be calculated in many different ways, including volume raymarching, raytracing (software and hardware): any acceleration structure can work, as long as it allows querying ray segments. The implementation that this work uses signed distance field raymarching purely because of convenience.
+
+This implementation also utilizes reprojection: each cascade can be efficiently reprojected from the previous frame to allow temporal accumulation over time. This allows to dramatically increase long-term convergence by sacrificing some lighting responsiveness.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.49\columnwidth]{images/sdf_reprojection_truchet.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_reprojection_truchet2.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_apollonian.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_leon_torus_1.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_temple.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_fractal_1.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_fractal_2.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_goopy2.png}
+  \caption{\label{fig:sdf_world_space}
+     A demo of world space radiance intervals encoded in screenspace probes. Images demonstrate the possibility of capturing off-screen world-space lighting and occlusion information in screenspace probes. Each frame takes about 30-50ms to calculate on GTX3060 and each novel view takes 0.1-0.5s to converge due to temporal accumulation(exact time depends on fractal used).}
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.49\columnwidth]{images/sdf_stress_tiny.png}
+  \includegraphics[width=0.49\columnwidth]{images/sdf_stress_many.png}
+  \caption{\label{fig:sdf_stress_test}
+     Left: stress test with small indirect light sources, Right: stress test with many light sources. Indirect light even from small emissive surfaces can be observed and performance of the method does not depend on their number.}
+\end{figure}
+\clearpage
 \section{Limitations}
 Radiance cascades do have their limitations, however. Most importantly, even though radiance cascades scale very well asymptotically, the constant part of their complexity can be quite high. For example, even though storing the "tail" of a full 3d radiance field takes only as much space as storing its cascade 0, just storing a cascade 0 is practically equivalent to voxelizing the entire scene -- this is often a "dealbreaker" for large-scale scenes.
 
