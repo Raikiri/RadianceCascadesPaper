@@ -1,4 +1,6 @@
 # RadianceCascades
+![gi_2d](https://github.com/user-attachments/assets/946f9e7a-e738-481a-97f2-358242b82828)
+
 This is a repo for my paper on Radiance Cascades. I never sent it to any journal -- it uses the jcgt template, but was never published there. However, I do want the text to be available permanently for people who search it.
 
 
